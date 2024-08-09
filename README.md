@@ -37,6 +37,7 @@ The "Posts Scanner" plugin is designed to scan all public posts and pages on a W
 ### 4. Technical Details
 
 **Key Classes and Files**:
+
 - **Admin Interface**:
   - `app/pages/admin/class-post-maintenance.php`: Manages the admin page where the scan is initiated.
   - `src/pages/posts-maintenance.jsx`: React component for the admin page interface.
