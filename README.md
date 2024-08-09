@@ -6,26 +6,20 @@
 The "Posts Scanner" plugin is designed to scan all public posts and pages on a WordPress site. It updates the post meta with the current timestamp, ensuring regular maintenance and monitoring of content updates. This plugin offers both a user-friendly interface and a CLI command for scanning.
 
 
-### 2. Plugin Screenshots
+### 2. Plugin Usage
 
-1. **Admin Interface - Dashboard Overview**
+- **Admin Interface**:
+  - Navigate to the Posts Scanner page in the WordPress admin menu.
+  - Click the "Scan Posts" button to initiate the scanning process. This will update the meta information for all public posts and pages.
 
-   ![Dashboard Overview](https://github.com/user-attachments/assets/0961f8ac-5bf0-4282-9b14-af898e367de6)
+  ![Dashboard Overview](https://github.com/user-attachments/assets/0961f8ac-5bf0-4282-9b14-af898e367de6)
 
    *Description: This screenshot shows the main dashboard of the Posts Scanner plugin, highlighting the current scan status.*
-
-2. **Admin Interface - Scan Posts Page**
 
    ![Scan Posts Page](https://github.com/user-attachments/assets/344b836e-9bd0-467f-913a-6cbb6ac8d514)
 
    *Description: This screenshot displays the Scan Posts page within the WordPress admin interface. Users can initiate and monitor post scanning from this page.*
 
-
-### 3. Plugin Usage
-
-- **Admin Interface**:
-  - Navigate to the Posts Scanner page in the WordPress admin menu.
-  - Click the "Scan Posts" button to initiate the scanning process. This will update the meta information for all public posts and pages.
 
 - **CLI Command**:
   - You can also run the scan using WP-CLI with the following command:
@@ -34,7 +28,11 @@ The "Posts Scanner" plugin is designed to scan all public posts and pages on a W
     ```
   - This command will perform the same operation as the button in the admin interface, updating the post meta with the current timestamp.
 
-### 4. Technical Details
+  ![WP-CLI Command](https://github.com/user-attachments/assets/2a8dcc32-6be6-4326-8e56-2c364992568a)
+
+   *Description: This screenshot illustrates the usage of the WP-CLI command to initiate post scanning.*
+
+### 3. Technical Details
 
 **Key Classes and Files**:
 
@@ -57,14 +55,8 @@ The "Posts Scanner" plugin is designed to scan all public posts and pages on a W
 - The admin interface is built using React, with Webpack used to bundle the JavaScript files.
 - The plugin follows WordPress coding standards, with configurations provided for PHP CodeSniffer and PHPUnit.
 
-3. **CLI Command - WP-CLI Scan Command**
 
-   ![WP-CLI Command](https://github.com/user-attachments/assets/2a8dcc32-6be6-4326-8e56-2c364992568a)
-
-   *Description: This screenshot illustrates the usage of the WP-CLI command to initiate post scanning.*
-
-
-### 5. Technologies Used
+### 4. Technologies Used
 
 - **PHP**: The primary language used for the backend functionality.
 - **JavaScript**: Used for the admin interface, primarily with React.
@@ -74,27 +66,7 @@ The "Posts Scanner" plugin is designed to scan all public posts and pages on a W
 - **PHPUnit**: For running unit tests.
 - **WP-CLI**: For providing command-line functionality.
 
-### 5. Plugin Screenshots
-
-1. **Admin Interface - Dashboard Overview**
-
-   ![Dashboard Overview](https://github.com/user-attachments/assets/0961f8ac-5bf0-4282-9b14-af898e367de6)
-
-   *Description: This screenshot shows the main dashboard of the Posts Scanner plugin, highlighting the current scan status.*
-
-2. **Admin Interface - Scan Posts Page**
-
-   ![Scan Posts Page](https://github.com/user-attachments/assets/344b836e-9bd0-467f-913a-6cbb6ac8d514)
-
-   *Description: This screenshot displays the Scan Posts page within the WordPress admin interface. Users can initiate and monitor post scanning from this page.*
-
-3. **CLI Command - WP-CLI Scan Command**
-
-   ![WP-CLI Command](https://github.com/user-attachments/assets/2a8dcc32-6be6-4326-8e56-2c364992568a)
-
-   *Description: This screenshot illustrates the usage of the WP-CLI command to initiate post scanning.*
-
-### 6. Installation Instructions
+### 5. Installation Instructions
 
 #### Composer
 
