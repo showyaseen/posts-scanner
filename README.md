@@ -1,3 +1,7 @@
+Certainly! Here's an updated version of your README document with a well-formatted "Plugin Screenshots" section:
+
+---
+
 ### 1. Plugin Description
 
 **Plugin Name**: Posts Scanner
@@ -59,21 +63,46 @@ The "Posts Scanner" plugin is designed to scan all public posts and pages on a W
 - **PHPUnit**: For running unit tests.
 - **WP-CLI**: For providing command-line functionality.
 
+### 5. Plugin Screenshots
 
-# Installation
+1. **Admin Interface - Dashboard Overview**
 
-## Composer
-Install composer packages
-`composer install`
+   ![Dashboard Overview](https://example.com/path/to/dashboard-overview.png)
 
-## Build Tasks (npm)
-Everything should be handled by npm.
+   *Description: This screenshot shows the main dashboard of the Posts Scanner plugin, highlighting the current scan status.*
 
-Install npm packages
-`npm install`
+2. **Admin Interface - Scan Posts Page**
+
+   ![Scan Posts Page](https://example.com/path/to/scan-posts-page.png)
+
+   *Description: This screenshot displays the Scan Posts page within the WordPress admin interface. Users can initiate and monitor post scanning from this page.*
+
+3. **CLI Command - WP-CLI Scan Command**
+
+   ![WP-CLI Command](https://example.com/path/to/wp-cli-command.png)
+
+   *Description: This screenshot illustrates the usage of the WP-CLI command to initiate post scanning.*
+
+### 6. Installation Instructions
+
+#### Composer
+
+Install composer packages:
+```bash
+composer install
+```
+
+#### Build Tasks (npm)
+
+Install npm packages:
+```bash
+npm install
+```
 
 | Command              | Action                                                |
 |----------------------|-------------------------------------------------------|
-| `npm run watch`      | Compiles and watch for changes.                       |
-| `npm run compile`    | Compile production ready assets.                      |
-| `npm run build`      | Compile development assets.                            |
+| `npm run watch`      | Compiles and watches for changes.                      |
+| `npm run compile`    | Compiles production-ready assets.                      |
+| `npm run build`      | Compiles development assets.                           |
+
+---
