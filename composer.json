@@ -1,0 +1,33 @@
+{
+	"name": "ytaha/posts-scanner",
+	"description": "Posts Scanner Plugin provides a user-friendly admin interface and a CLI command for scanning posts and updating their meta information.",
+	"type": "project",
+	"config": {
+		"platform": {
+			"php": "7.4"
+		},
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "Yaseen Taha",
+			"email": "showyaseen@hotmail.com"
+		}
+	],
+	"require": {
+		"php": ">=7.4"
+	},
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^3.0",
+		"dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"phpunit/phpunit": "^9.0",
+		"yoast/phpunit-polyfills": "^2.0"
+	},
+	"autoload": {
+        "classmap": ["core/", "app/"]
+	}
+}
