@@ -50,12 +50,6 @@ The "Posts Scanner" plugin is designed to scan all public posts and pages on a W
 - **Endpoints**:
   - `app/endpoints/v1/class-posts-scan.php`: Defines the REST API endpoint for initiating the post scan.
 
-**Technical Implementation**:
-- The plugin uses a combination of PHP and JavaScript. The PHP classes handle the backend functionality, such as defining REST API endpoints, WP-CLI commands, and interacting with the database.
-- The admin interface is built using React, with Webpack used to bundle the JavaScript files.
-- The plugin follows WordPress coding standards, with configurations provided for PHP CodeSniffer and PHPUnit.
-
-
 ### 4. Technologies Used
 
 - **PHP**: The primary language used for the backend functionality.
