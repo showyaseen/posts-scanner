@@ -1,7 +1,3 @@
-Certainly! Here's an updated version of your README document with a well-formatted "Plugin Screenshots" section:
-
----
-
 ### 1. Plugin Description
 
 **Plugin Name**: Posts Scanner
@@ -67,19 +63,19 @@ The "Posts Scanner" plugin is designed to scan all public posts and pages on a W
 
 1. **Admin Interface - Dashboard Overview**
 
-   ![Dashboard Overview](https://example.com/path/to/dashboard-overview.png)
+   ![Dashboard Overview](<img width="1107" alt="image" src="https://github.com/user-attachments/assets/0961f8ac-5bf0-4282-9b14-af898e367de6">)
 
    *Description: This screenshot shows the main dashboard of the Posts Scanner plugin, highlighting the current scan status.*
 
 2. **Admin Interface - Scan Posts Page**
 
-   ![Scan Posts Page](https://example.com/path/to/scan-posts-page.png)
+   ![Scan Posts Page](<img width="1121" alt="image" src="https://github.com/user-attachments/assets/344b836e-9bd0-467f-913a-6cbb6ac8d514">)
 
    *Description: This screenshot displays the Scan Posts page within the WordPress admin interface. Users can initiate and monitor post scanning from this page.*
 
 3. **CLI Command - WP-CLI Scan Command**
 
-   ![WP-CLI Command](https://example.com/path/to/wp-cli-command.png)
+   ![WP-CLI Command](<img width="729" alt="image" src="https://github.com/user-attachments/assets/2a8dcc32-6be6-4326-8e56-2c364992568a">)
 
    *Description: This screenshot illustrates the usage of the WP-CLI command to initiate post scanning.*
 
